@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
-import AppBar from "../components/AppBar";
+// import AppBar from "../components/AppBar";
 import google from "../assets/google.svg";
 import Footer from "../components/Footer";
 
@@ -22,7 +22,7 @@ function Login() {
 
   return (
     <div>
-      <AppBar />
+      {/* <AppBar /> */}
       <div className="bg-black text-white w-screen h-screen flex flex-col justify-center items-center">
         <div className="bg-[#111214] text-center space-y-10 px-16 rounded-2xl border border-[#343A40]">
           <div className="">
